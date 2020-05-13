@@ -7,4 +7,5 @@ using namespace std;
 int main(){
     int i = 1000;
     cout<<i<<endl;
+    cout<<i+1<<endl;
 }
