@@ -15,5 +15,6 @@ ssh -T git@github.com
 git init  
 git add .  
 git commit -m "xxx"  
+将远程仓库命名为origin  
 git remote add origin github仓库的SSH链接  
 git push origin master  
