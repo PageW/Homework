@@ -111,7 +111,7 @@ C:\Program Files\TDM-GCC-64\bin加入环境变量
             "preLaunchTask": "build",
             "windows": {
                 "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
-                "miDebuggerPath": "C:/Program Files/mingw64/bin/gdb.exe",
+                "miDebuggerPath": "C:/Program Files/TDM-GCC-64/bin/gdb.exe",
             },
             "osx": {
                 "externalConsole": true
