@@ -1,14 +1,13 @@
 #include <iostream>
-#include <stdio.h>
-#include <math.h>
 #include <vector>
 #include <queue>
-#include <unordered_map>
+#include <math.h>
 using namespace std;
 int main()
 {
-    unordered_map<int, int> unmap;
-    // unmap.emplace(1, 100);
-    // cout << s[1] << endl;
+    double x = 156;
+    double y = 240;
+    cout << y / x << endl;
+    cout << 0.54 / 0.06 << endl;
     return 0;
 }
