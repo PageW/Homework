@@ -5,10 +5,12 @@
 using namespace std;
 int main()
 {
-    double x = 156;
-    double y = 240;
-    cout << y / x << endl;
-    cout << 0.54 / 0.06 << endl;
-    cout << 2.3 / 1.5 << endl;
+    for (int x = 1; x < 16; x++)
+    {
+
+        int diff = x & (-x);
+        cout << x << " " << diff << endl;
+    }
+
     return 0;
 }
